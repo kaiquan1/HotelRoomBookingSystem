@@ -2,9 +2,12 @@
 
 A simulated hotel room booking system for a group project for Software Testing course in UTAR. The functionalities of the code is tested using JUnit 4 and Mockito. 
 
-The system has the following requirements:
 
-## 1. VIP member
+The test case design documentation is provided in the .xlsx file.
+
+## The system has the following requirements:
+
+### 1. VIP member
 - If VIP room is fully booked when a VIP member places a booking, Deluxe room will
 be allocated instead.
 - In case Deluxe room is fully booked, Standard room will be allocated.
@@ -17,7 +20,7 @@ and one Standard room.
 waiting list.
 
 
-## 2. Normal member
+### 2. Normal member
 - If Deluxe room is fully booked when a normal member places a booking,
   - Standard room will be allocated to member without exclusive reward.
   - A member with exclusive reward will be allocated VIP room subject to availability.
@@ -33,7 +36,7 @@ one Standard or one Deluxe and one Standard.
 waiting list.
 
 
-## 3. Non-member
+### 3. Non-member
 - If Standard room is fully booked when a non-member places a booking, he/she will be
 placed into normal waiting list.
 - A non-member can book for only one room at a time.
