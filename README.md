@@ -3,7 +3,7 @@
 A simulated hotel room booking system for a group project for Software Testing course in UTAR. The functionalities of the code is tested using JUnit 4 and Mockito. 
 
 
-The test case design documentation is provided in the .xlsx file.
+The test case design documentation is provided in the ***Test_Case_Design.xlsx*** file.
 
 ## The system has the following requirements:
 
